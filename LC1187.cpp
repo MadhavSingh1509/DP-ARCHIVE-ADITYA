@@ -1,12 +1,6 @@
 /*
-LeetCode 828 - Count Unique Characters of All Substrings
-https://leetcode.com/problems/count-unique-characters-of-all-substrings/
-
-Idea:
-Contribution technique using previous and next occurrence.
-
-Time: O(n)
-Space: O(n)
+LeetCODE:1887
+https://leetcode.com/problems/make-array-strictly-increasing/description/
 */
 class Solution {
 public:
@@ -47,4 +41,5 @@ public:
         return res >= 1e9 ? -1 : res;
     }
 };
+
 
